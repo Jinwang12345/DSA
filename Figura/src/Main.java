@@ -18,8 +18,8 @@ public class Main {
     public static void main(String[] args) {
         Figura[] v = new Figura[4];
 
-        v[0] = new Rectangulo(6,4);
-        v[1] = new Circulo(6);
+        v[0] = new Circulo(6);
+        v[1] = new Rectangulo(6,4);
         v[2] = new Cuadrado(6, 6);
         v[3] = new Triangulo(7,11);
 
